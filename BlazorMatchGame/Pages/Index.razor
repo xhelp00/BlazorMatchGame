@@ -30,6 +30,9 @@
               </div>
          }
     </div>
+    <div class="row">
+        <h2>Matches found: @matchesFound</h2>
+    </div>
 </div>
 
 @code
@@ -47,6 +50,8 @@
     };
 
     List<string> shuffled = new List<string>();
+    int matchesFound = 0;
+
     protected override void OnInitialized()
     {
         SetUpGame();
@@ -58,6 +63,7 @@
         shuffled = animalEmoji
             .OrderBy(item => random.Next())
             .ToList();
+        matchesFound = 0;
     }
 
     string lastAnimalFound = string.Empty;
@@ -79,6 +85,13 @@
             shuffled = shuffled
                 .Select(a => a.Replace(animal, string.Empty))
                 .ToList();
+            //counter
+            matchesFound++;
+            //reset game condition
+            if (matchesFound == 8)
+            {
+                SetUpGame();
+            }
         }
         else
         {
