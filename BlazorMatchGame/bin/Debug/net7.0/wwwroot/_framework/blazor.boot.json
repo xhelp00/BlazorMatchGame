@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-badKdPe6iRs84RQLXBloHSqFKpRH9OadGJi0KTXhRFQ=",
       "netstandard.dll": "sha256-iBSnBFLxBMQ\/rJFfJ8Hx43m9PgD1lkZjNx6fDse3\/hA=",
       "System.Private.CoreLib.dll": "sha256-6enLVpQNF0y8yVpyDFGLqpY5QEQxGkE3u+QL6M6YcIc=",
-      "BlazorMatchGame.dll": "sha256-gxzUnevuP4rOGLEB6rfu9pnxR3ZUuetZHqE1P1863Xk="
+      "BlazorMatchGame.dll": "sha256-oNFt3C\/HIvQiyFYAHYQLO2k4AaDFk+EMDxwoK4rGmes="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorMatchGame.pdb": "sha256-CFy08qBc4krAXYx6MlomQ6Xuz4mnKXXdJwn8mC6o9BM="
+      "BlazorMatchGame.pdb": "sha256-aO33ELTeRHNj6vncMCM1NwQ63pWL7OxbkmMT7CF4GkA="
     },
     "runtime": {
       "dotnet.7.0.17.gkg1vdlf83.js": "sha256-E0n6hbqoR0T+sf5KQWRykPOVHyupoVmuMAlrNdZv\/58=",
